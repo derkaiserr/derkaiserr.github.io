@@ -99,7 +99,7 @@ input{
     font-weight: 600;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 700px) {
     .directories {
         background: rgba(128, 128, 128, 0.71);
         border-radius: 60%;
@@ -112,6 +112,76 @@ input{
         display: block;  
     }
     
+
+    .ppties {
+        text-align: center;
+        background-color: rgb(68, 255, 47);
+        margin-left: 32%;
+        box-sizing: content-box;
+        width: 42%
+    }
+    .CONTACT-US {
+        background: rgba(78, 77, 77, 0.981);
+        text-align: center;
+        color: rgba(250, 235, 215, 0.667);
+        border-left: #edb009 solid 6px;
+        border-top: solid #edb009 6px;
+        border-right: solid #edb009 6px;
+        ;
+        border-bottom: rgba(78, 77, 77, 0.968) solid 3px;
+        margin-left: -0.58%;
+        margin-right: -0.58%;
+        margin-bottom: -1.5%;
+    
+    
+    }
+    .contact-us {
+        display: block;
+        clear: both;
+    
+    }
+
+    .about {
+        text-align: center;
+        width: 70%;
+        margin-left: 15.3%;
+    }
+
+    .follow {
+        text-align: center;
+        display:contents;
+    }
+
+    a:visited {
+        color: #edb009;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a{
+        color: #edb009;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .directories {
+        background: rgba(128, 128, 128, 0.71);
+        border-radius: 60%;
+        box-sizing: content-box;
+        padding: 5.6% 4.5%;
+        max-width: 9%;
+        text-align: center;
+        font-size: medium;
+        margin: auto auto auto 41.8%;
+        display: block;  
+    }
+
+
+    img{
+width: 35%;
+    }
+    
+    .price{
+        width: 40%;
+    }
 
     .ppties {
         text-align: center;
