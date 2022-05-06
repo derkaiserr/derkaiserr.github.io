@@ -144,11 +144,20 @@ input{
     .about {
         text-align: center;
         width: 70%;
-        margin-left: 13%;
+        margin-left: 15.3%;
     }
 
     .follow {
         text-align: center;
         display:contents;
+    }
+
+    a:visited {
+        color: #edb009;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a{
+        color: #edb009;
     }
 }
