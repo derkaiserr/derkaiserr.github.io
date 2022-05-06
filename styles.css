@@ -99,7 +99,7 @@ input{
     font-weight: 600;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1080px) {
     .directories {
         background: rgba(128, 128, 128, 0.71);
         border-radius: 60%;
