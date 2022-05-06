@@ -3,6 +3,9 @@ body{
     background-size: 100%;
 
 }
+img{
+    max-width: 20%;
+}
 
 .directories{
 background: rgba(128, 128, 128, 0.71);
