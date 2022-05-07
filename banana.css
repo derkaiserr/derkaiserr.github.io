@@ -80,7 +80,7 @@ width: 30%;
 .CONTACT{
 float: right;
 
-width: auto;
+width: 30%;
 margin-top: -43%;
 }
 
@@ -94,4 +94,62 @@ margin-top: -43%;
     'Lucida Sans',
     Arial,
     sans-serif;
+}
+
+
+#inp{
+width: 60%;
+height: 37px;
+font-family: 'Times New Roman',
+Times,
+serif;
+font-size: 18px;
+font-weight: 500;
+color: rgb(24, 70, 20);
+background-color: #f1e2b6df;
+}
+
+button{
+    color: #edb009;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.contact-us {
+    display: inline-block;
+    margin-left: -10%;
+}
+
+.CONTACT-US {
+    background: rgba(78, 77, 77, 0.981);
+    text-align: center;
+    color: rgba(250, 235, 215, 0.667);
+    border-left: #edb009 solid 6px;
+    border-top: solid #edb009 6px;
+    border-right: solid #edb009 6px;
+    ;
+    border-bottom: rgba(78, 77, 77, 0.968) solid 3px;
+    margin-left: -0.58%;
+    margin-right: -0.58%;
+    margin-bottom: -1.5%;
+}
+
+.about {
+    float: left;
+    width: 30%;
+}
+
+.follow {
+    float: right;
+    display: inline-block;
+
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(9, 105, 79, 0.913);
+    font-weight: 600;
 }
