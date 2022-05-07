@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(rgba(81, 81, 81, 0.922), rgba(81, 81, 81, 0.922)), url(./Banana/Banana-Island-Ikoyi-107-close-1.jpg);
+    display: block;
+}
+.images{
+    display: inline-flex;
+    width: 20%;
+    ;
+}
+
+#logo{
+    float: left;
+    display: inline;
+    width: 20%;
+}
+a{
+    color: #edb009;
+    width: auto;
+}
+
+.li{
+   display: inline-block;
+   width: 13%;
+}
+
+
+.directories{
+  
+    width: auto;
+
+}
+
+
+
+
+.body{
+display: block;
+}

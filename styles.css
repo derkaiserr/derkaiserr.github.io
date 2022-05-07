@@ -75,7 +75,7 @@ textarea{
 }
 .contact-us{
    display: inline-block;
- 
+ margin-left: -10%;
 }
 .about{
     float:left;
@@ -83,7 +83,8 @@ width: 30%;
 }
 .follow{
     float: right;
-    display: block;
+    display: inline-block;
+    
 }
 button{
     color: #edb009;
