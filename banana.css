@@ -230,41 +230,11 @@ width: 35%;
 
 }
 
-#ikoyi{
-position: absolute;
-float:left;
-margin-left: -250px;
-width: 10%;
+.li{
+    display: inline-block;
+    width: 25%;
+    margin-left: 3%;
 }
-
-#VI{
-    position: absolute;
-    float:left;
-    margin-left: -210px;
-    width: 10%;
-}
-#LM{
-    margin-left: -75px;
-    position: absolute;
-    float:left;
-    width: 10%;
-}
-
-#lekki{
-    margin-left: 120px;
-    position: static;
-   
-    display: block;
-    width: 10%;
-}
-
-#BI{
-    margin-left: 35px;
-    display: block;
-    width: 250%;
-width: 10%;
-}
-
 
 
 
