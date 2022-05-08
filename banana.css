@@ -183,11 +183,12 @@ input {
 #admin{
    font-size: 20px;
     max-width: 10%;
+    margin-left: -5%;
 }
 
 .overview{
 display: inline-block   ;
-width: 40%;
+width: 35%;
 }
 
 #rate{
