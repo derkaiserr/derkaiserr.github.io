@@ -182,8 +182,8 @@ input {
 
 #admin{
    font-size: 20px;
-    max-width: 10%;
-    margin-left: -5%;
+    max-width: 5%;
+    margin-left: -10%;
 }
 
 .overview{
@@ -216,11 +216,11 @@ width: 35%;
 
 
 .CONTACT{
-    width: 38%;  
+    width: 45%;  
     position:static;
     display:block;
     margin-top: -60.5rem;
-    margin-left: -17%;
+   
 }
 
 .directories{
