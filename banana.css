@@ -216,9 +216,8 @@ width: 35%;
 
 
 .CONTACT{
-    width: 45%;  
-    position:static;
-    display:block;
+    width: 30%;  
+    margin-right: 23%;
     margin-top: -60.5rem;
    
 }
@@ -252,7 +251,7 @@ width: 10%;
 }
 
 #lekki{
-    margin-left: 200px;
+    margin-left: 170px;
     position: relative;
    
     display: block;
