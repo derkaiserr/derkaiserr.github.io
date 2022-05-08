@@ -219,7 +219,7 @@ width: 40%;
 .directories{
     margin:auto;
     width: auto;
-    position:sticky;
+    position:static;
 
 
 }
