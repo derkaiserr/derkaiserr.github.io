@@ -147,7 +147,7 @@ input{
     .contact-us {
         display: block;
         clear: both;
-    
+        margin-left: 1%;
     }
 
     .about {
