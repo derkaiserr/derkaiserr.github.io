@@ -212,11 +212,14 @@ width: 40%;
     width: 44%;
     margin-top: -154%;
     float: right;
+    position:static;
     margin-left: -15%;
 }
 
 .directories{
     margin:auto;
+    width: auto;
+    position: static;
 
 }
 
@@ -250,6 +253,14 @@ margin-left: -250px;
     width: 250%;
 }
 
+
+
+
+
+}
+
+
+@media screen and (min-width: 700px){
 
 
 }
