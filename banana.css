@@ -209,8 +209,8 @@ width: 40%;
 }
 
 .CONTACT{
-    width: 44%;   float: right;
-    position:-ms-page;
+    width: 44%;  
+    position:static;
     display:block;
     margin-top: -60.5rem;
     margin-left: -15%;
