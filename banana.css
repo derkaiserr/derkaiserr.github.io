@@ -209,17 +209,18 @@ width: 40%;
 }
 
 .CONTACT{
-    width: 44%;
-    margin-top: -154%;
-    float: right;
-    position:static;
+    width: 44%;   float: right;
+    position:-ms-page;
+    display:block;
+    margin-top: -60.5rem;
     margin-left: -15%;
 }
 
 .directories{
     margin:auto;
     width: auto;
-    position: static;
+    position:sticky;
+
 
 }
 
