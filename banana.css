@@ -186,7 +186,7 @@ width: 40%;
 }
 
 #rate{
-    width: 38%;
+    width: auto;
     box-sizing: content-box;
 }
 
@@ -213,7 +213,7 @@ width: 40%;
     position:static;
     display:block;
     margin-top: -60.5rem;
-    margin-left: -15%;
+    margin-left: -17%;
 }
 
 .directories{
@@ -242,7 +242,7 @@ margin-left: -250px;
 }
 
 #lekki{
-    margin-left: 220px;
+    margin-left: 200px;
     position: relative;
    
     display: block;
