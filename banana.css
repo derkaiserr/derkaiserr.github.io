@@ -251,8 +251,8 @@ width: 10%;
 }
 
 #lekki{
-    margin-left: 170px;
-    position: relative;
+    margin-left: 120px;
+    position: static;
    
     display: block;
     width: 10%;
