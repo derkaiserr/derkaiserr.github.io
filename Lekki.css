@@ -30,23 +30,29 @@
     
 }
 .apartment{
-   
+    background-color: rgba(7, 85, 7, 0.81);
+   border-radius: 36px;
+   box-sizing: border-box;
+  width: 70%;
     
 }
 
 
-#rusten{
+#link{
     width: 25rem;
     border-radius: 10%;
-    transition-property: all 0.6s ease;    
+    color: rgba(38, 35, 35, 0.364);
+transition: .5s ;
+
     
 }
 
-#rusten:hover{
-    color: rgba(0, 0, 0, 0.7);
+#link:hover{
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.807);
 }
 
-#rusten::before{
+#link::before{
     content: "Abodes Rustenburg";
     position:absolute;
     color: #805f04;
@@ -62,4 +68,13 @@
     
    
     
+}
+
+
+#description{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #edb009;
+    padding-bottom: 35px;
+    margin-top: -15px;
 }
