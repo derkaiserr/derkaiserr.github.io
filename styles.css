@@ -179,14 +179,14 @@ input{
 @media screen and (max-width: 600px) {
     .directories {
         background: rgba(128, 128, 128, 0.71);
-        border-radius: 60%;
+        border-radius: 65%;
         box-sizing: content-box;
     padding: 67px 7.5px;
-    max-width: 11rem;
+    max-width: 9rem;
     text-align: center;
     font-size:medium;
    
-        margin: auto auto auto 38%;
+        margin: auto auto auto 32%;
         display: block;
     }
 
