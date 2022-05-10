@@ -15,7 +15,7 @@ padding: 67px 6.4px;
 max-width: 12rem;
 text-align: center;
 font-size:medium;
-margin-left: 43%;
+margin-left: 42%;
 display:block;
 color:aliceblue;
 transition: background  0.6s ;
@@ -58,9 +58,9 @@ textarea{
 .ppties{
     text-align: center;
     background-color: rgb(68, 255, 47);
-    margin-left: 36%;
+    margin-left: 32%;
     box-sizing: content-box;
-    width: 26%
+    width: 34%;
 }
 
 .CONTACT-US{
@@ -112,7 +112,7 @@ input{
        
         text-align: center;
         font-size: medium;
-        margin: auto auto auto 0;
+        margin: auto auto auto -10%;
         display: block;
         padding: 67px 6px;
         max-width: 9rem;
@@ -183,10 +183,10 @@ input{
         box-sizing: content-box;
     padding: 67px 7.5px;
     max-width: 9rem;
-    text-align: center;
+    
     font-size:medium;
    
-        margin: auto auto auto 0;
+        margin: auto 10% auto -100%;
         display: block;
     }
 
