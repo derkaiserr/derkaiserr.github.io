@@ -16,6 +16,7 @@ body{
 
 #rate{
     color:  #eda509; font-size: 39px; background-color: rgb(10, 75, 0); max-width: max-content; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 2px 7px; border-radius: 4px; 
+    clear: both;
 }
 
 #overview{
@@ -66,6 +67,18 @@ padding-bottom: 5%;
 padding-top: 3%;
 }
 
+.collection{
+    display:contents;
+    width: 30%;
+    
+}
+
+.CONTACT{
+    width: 40%;
+    margin-left: 5%;
+    clear: right;
+}
+
 
 
 
@@ -80,16 +93,12 @@ font-size: 24px;
 line-height: 27px;
 color: #e9bc42f7;
 display: inline-block;
-width: 30%;
+width: 50%;
+float: left;
 
 }
 
-.CONTACT{
-float: right;
 
-width: 30%;
-margin-top: -43%;
-}
 
 .contact{
     color:#edb009;
@@ -188,7 +197,7 @@ input {
 
 .overview{
 display: inline-block   ;
-width: 35%;
+width: 65%;
 }
 
 #rate{
@@ -216,9 +225,9 @@ width: 35%;
 
 
 .CONTACT{
-    width: 30%;  
-    margin-right: 23%;
-    margin-top: -60.5rem;
+    width: 45%;  
+   
+    
    
 }
 
@@ -242,7 +251,3 @@ width: 35%;
 }
 
 
-@media screen and (min-width: 700px){
-
-
-}
