@@ -182,3 +182,81 @@ button {
     display: inline-block;
     margin-left: -10%;
 }
+
+@media screen and (max-width: 900px) {
+    .CONTACT-US {
+        background: rgba(78, 77, 77, 0.981);
+        text-align: center;
+        color: rgba(250, 235, 215, 0.667);
+        border-left: #edb009 solid 6px;
+        border-top: solid #edb009 6px;
+        border-right: solid #edb009 6px;
+        ;
+        border-bottom: rgba(78, 77, 77, 0.968) solid 3px;
+        margin-left: -0.58%;
+        margin-right: -0.58%;
+        margin-bottom: -1.5%;
+
+
+    }
+
+    #admin {
+        font-size: 20px;
+        max-width: 7%;
+        color: #806008;
+    }
+
+    .overview {
+        display: inline-block;
+        width: 65%;
+    }
+
+    #rate {
+        width: 50%;
+        box-sizing: content-box;
+    }
+
+
+    .contact-us {
+        display: block;
+        clear: both;
+        margin-left: 1%;
+    }
+
+    .about {
+        text-align: center;
+        width: 70%;
+        margin-left: 15.3%;
+    }
+
+    .follow {
+        text-align: center;
+        display: contents;
+    }
+
+
+    .CONTACT {
+        width: 45%;
+        margin-top: 0;
+        float: none;
+
+    }
+
+    .directories {
+        margin: auto;
+        width: auto;
+        position: static;
+
+
+    }
+
+    .li {
+        display: inline-block;
+        width: 25%;
+        margin-left: 3%;
+    }
+
+
+
+
+}

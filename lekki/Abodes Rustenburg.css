@@ -201,6 +201,11 @@ input {
 
 
     }
+    
+
+    .images{
+        width: 30%;
+    }
 
     #admin {
         font-size: 20px;
@@ -239,6 +244,8 @@ input {
 
     .CONTACT {
         width: 45%;
+        float: none;
+        margin-top: 0;
 
 
 
