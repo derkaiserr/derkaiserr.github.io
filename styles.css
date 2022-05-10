@@ -182,11 +182,11 @@ input{
         border-radius: 60%;
         box-sizing: content-box;
     padding: 67px 7.5px;
-    max-width: 12rem;
+    max-width: 11rem;
     text-align: center;
     font-size:medium;
    
-        margin: auto auto auto 41.8%;
+        margin: auto auto auto 38%;
         display: block;
     }
 
