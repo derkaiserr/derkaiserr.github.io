@@ -11,11 +11,11 @@ img{
 background: rgba(128, 128, 128, 0.71);
 border-radius: 50%;
 box-sizing: content-box;
-padding: 67px 7.5px;
+padding: 67px 6.4px;
 max-width: 12rem;
 text-align: center;
 font-size:medium;
-margin-left: 45%;
+margin-left: 43%;
 display:block;
 color:aliceblue;
 transition: background  0.6s ;
@@ -112,10 +112,10 @@ input{
        
         text-align: center;
         font-size: medium;
-        margin: auto auto auto 41.8%;
+        margin: auto auto auto 0;
         display: block;
-        padding: 67px 7.5px;
-        max-width: 12rem;
+        padding: 67px 6px;
+        max-width: 9rem;
         
     }
 
@@ -301,6 +301,8 @@ input{
     .contact-us {
         display: block;
         clear: both;
+        text-align: center;
+        margin:auto;
 
     }
 
