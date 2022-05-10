@@ -210,12 +210,12 @@ input {
     #admin {
         font-size: 20px;
         max-width: 5%;
-        margin-left: -10%;
+        
     }
 
     .overview {
         display: inline-block;
-        width: 65%;
+        width: auto;
     }
 
     #rate {
@@ -243,7 +243,7 @@ input {
 
 
     .CONTACT {
-        width: 45%;
+        width: auto;
         float: none;
         margin-top: 0;
 
