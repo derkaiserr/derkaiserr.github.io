@@ -186,7 +186,7 @@ input{
     text-align: center;
     font-size:medium;
    
-        margin: auto auto auto 20%;
+        margin: auto auto auto 0;
         display: block;
     }
 
