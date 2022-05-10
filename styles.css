@@ -112,7 +112,7 @@ input{
        
         text-align: center;
         font-size: medium;
-        margin: auto auto auto -10%;
+        margin: auto auto auto 20%;
         display: block;
         padding: 67px 6px;
         max-width: 9rem;
@@ -186,7 +186,7 @@ input{
     
     font-size:medium;
    
-        margin: auto 10% auto -100%;
+        margin: auto 10% auto 10%;
         display: block;
     }
 
@@ -200,7 +200,7 @@ input{
         background-color: rgb(68, 255, 47);
         margin-left: 32%;
         box-sizing: content-box;
-        width: 42%
+        width: 56%
     }
 
     .CONTACT-US {
