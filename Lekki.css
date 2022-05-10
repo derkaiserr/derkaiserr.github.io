@@ -2,9 +2,25 @@
     float: left;
     display: inline;
     width: 20%;
-    
 }
 
+.body {
+    display: block;
+    background: linear-gradient(20deg, rgba(0, 128, 0, 0.57), rgba(0, 178, 0, 0.413), grey), url(./lekki/aa.jpg) center;
+    
+
+}
+
+.available{
+    color:mediumseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1200;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  position: relative;
+    font-size: 40px;
+}
 .li {
     display: inline-block;
     width: 13%;
@@ -13,27 +29,21 @@
 }
 
 
-.body {
-    display: block;
-    background: linear-gradient(20deg, rgba(0, 128, 0, 0.57), rgba(0, 178, 0, 0.413), grey), url(./Banana/Banana-Gate-1.jpg) center;
-    margin-left: -3%;
-    margin-right:-3%;
 
-}
 
 .directories {
 
 
     padding-bottom: 5%;
     padding-top: 3%;
-    margin-top: -1%;
-    
 }
 .apartment{
-    background-color: rgba(7, 85, 7, 0.81);
+    background-color: rgba(61, 111, 61, 0.81);
    border-radius: 36px;
    box-sizing: border-box;
-  width: 35rem;
+  width: 33rem;
+  margin-left: auto;
+  margin-right: auto;
     
 }
 
@@ -41,13 +51,25 @@
 #link{
     width: 25rem;
     border-radius: 10%;
-    color: rgba(38, 35, 35, 0.364);
+    color: rgba(7, 192, 47, 0.668);
 transition: .5s ;
+
+    
+}
+#linkm{
+    width: 25rem;
+    border-radius: 10%;
+    color: rgba(7, 192, 47, 0.668);
+transition: .5s ease ;
 
     
 }
 
 #link:hover{
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.807);
+}
+#linkm:hover{
     opacity: 0.8;
     color: rgba(0, 0, 0, 0.807);
 }
@@ -65,10 +87,45 @@ transition: .5s ;
     border-radius: 9px;
     padding: 2px 7px;
     width: 17rem;
-    
-   
-    
 }
+#linkm::before{
+    content: "Abodes Monrovia";
+    position:absolute;
+    color: #805f04;
+    box-sizing: border-box;
+    border: #edb009 2px solid;
+  text-align: center;
+    font-size: 27px;
+    margin-top: 15rem;
+    margin-left: 7px;
+    border-radius: 9px;
+    padding: 2px 7px;
+    width: 17rem;
+}
+#linkmm::before{
+    content: "Abodes Fairview";
+    position:absolute;
+    color: #805f04;
+    box-sizing: border-box;
+    border: #edb009 2px solid;
+  text-align: center;
+    font-size: 27px;
+    margin-top: 15rem;
+    margin-left: 7px;
+    border-radius: 9px;
+    padding: 2px 7px;
+    width: 17rem;
+}
+a{
+    color: #edb009;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #edb009;
+}
+
+
 
 
 #description{
@@ -77,4 +134,51 @@ transition: .5s ;
     color: #edb009;
     padding-bottom: 35px;
     margin-top: -15px;
+}
+
+
+
+.CONTACT-US {
+    background: rgba(78, 77, 77, 0.981);
+    text-align: center;
+    color: rgba(250, 235, 215, 0.667);
+    border-left: #edb009 solid 6px;
+    border-top: solid #edb009 6px;
+    border-right: solid #edb009 6px;
+    ;
+    border-bottom: rgba(78, 77, 77, 0.968) solid 10px;
+    margin-left: -0.58%;
+    margin-right: -0.58%;
+    margin-bottom: -1.5%;
+}
+
+.about {
+    float: left;
+    width: 30%;
+}
+
+.follow {
+    float: right;
+    display: inline-block;
+
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(9, 105, 79, 0.913);
+    font-weight: 600;
+}
+
+button {
+    color: #edb009;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.contact-us {
+    display: inline-block;
+    margin-left: -10%;
 }

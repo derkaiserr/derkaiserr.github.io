@@ -1,0 +1,264 @@
+body {
+    background: linear-gradient(20deg, rgba(164, 196, 164, 0.926), rgba(100, 125, 101, 0.904), rgb(157, 155, 155)), url(./Banana/Banana-Island-Ikoyi-107-close-1.jpg);
+    display: block;
+}
+
+.images {
+    display: inline-flex;
+    width: 24%;
+    clear: right;
+}
+
+#logo {
+    float: left;
+    display: inline;
+    width: 20%;
+}
+
+#rate {
+    color: #eda509;
+    font-size: 39px;
+    background-color: rgb(10, 75, 0);
+    max-width: max-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2px 7px;
+    border-radius: 4px;
+    clear: both;
+}
+
+#overview {
+    color: #edb009;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(47, 72, 1);
+}
+
+
+a {
+    color: #edb009;
+    width: auto;
+    text-decoration: none;
+}
+
+.li {
+    display: inline-block;
+    width: 13%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lin {
+    display: inline-block;
+    width: max-content;
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(10, 75, 0);
+    color: rgb(192, 216, 146);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 1%;
+
+}
+
+
+
+.directories {
+
+
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.collection {
+    display: contents;
+    width: 30%;
+
+}
+
+.CONTACT {
+    width: 40%;
+    margin-left: 5%;
+    float: right;
+    display: inline-block;
+    margin-top: -46rem;
+}
+
+
+
+
+.body {
+    display: block;
+    background: linear-gradient(20deg, rgba(0, 128, 0, 0.57), rgba(0, 178, 0, 0.413), grey), url(./aa.jpg) center;
+
+
+}
+
+.overview {
+    font-size: 28px;
+    line-height: 27px;
+    color: #70560ff7;
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+}
+
+
+
+.contact {
+    color: #edb009;
+
+    font-size: 34px;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+}
+
+
+#inp {
+    width: 60%;
+    height: 37px;
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(24, 70, 20);
+    background-color: #f1e2b6df;
+}
+
+button {
+    color: #edb009;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+.contact-us {
+    display: inline-block;
+    margin-left: -10%;
+}
+
+.CONTACT-US {
+    background: rgba(78, 77, 77, 0.981);
+    text-align: center;
+    color: rgba(250, 235, 215, 0.667);
+    border-left: #edb009 solid 6px;
+    border-top: solid #edb009 6px;
+    border-right: solid #edb009 6px;
+    ;
+    border-bottom: rgba(78, 77, 77, 0.968) solid 3px;
+    margin-left: -0.58%;
+    margin-right: -0.58%;
+    margin-bottom: -1.5%;
+}
+
+.about {
+    float: left;
+    width: 30%;
+}
+
+.follow {
+    float: right;
+    display: inline-block;
+
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(9, 105, 79, 0.913);
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .CONTACT-US {
+        background: rgba(78, 77, 77, 0.981);
+        text-align: center;
+        color: rgba(250, 235, 215, 0.667);
+        border-left: #edb009 solid 6px;
+        border-top: solid #edb009 6px;
+        border-right: solid #edb009 6px;
+        ;
+        border-bottom: rgba(78, 77, 77, 0.968) solid 3px;
+        margin-left: -0.58%;
+        margin-right: -0.58%;
+        margin-bottom: -1.5%;
+
+
+    }
+
+    #admin {
+        font-size: 20px;
+        max-width: 5%;
+        margin-left: -10%;
+    }
+
+    .overview {
+        display: inline-block;
+        width: 65%;
+    }
+
+    #rate {
+        width: 50%;
+        box-sizing: content-box;
+    }
+
+
+    .contact-us {
+        display: block;
+        clear: both;
+        margin-left: 1%;
+    }
+
+    .about {
+        text-align: center;
+        width: 70%;
+        margin-left: 15.3%;
+    }
+
+    .follow {
+        text-align: center;
+        display: contents;
+    }
+
+
+    .CONTACT {
+        width: 45%;
+
+
+
+    }
+
+    .directories {
+        margin: auto;
+        width: auto;
+        position: static;
+
+
+    }
+
+    .li {
+        display: inline-block;
+        width: 25%;
+        margin-left: 3%;
+    }
+
+
+
+
+}
