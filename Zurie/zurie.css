@@ -601,12 +601,13 @@ font-weight: 500;
 color: #ffffff;
 }
 .quartsect button {
-height: 37px;
+height: 35.9px;
 margin-left: -20px;
 border-radius: 7px;
 width: 9rem;
 color: #1d1645;
 background-color: rgb(255, 117, 3) ;
+border: none;
 }
 
 #inp{
