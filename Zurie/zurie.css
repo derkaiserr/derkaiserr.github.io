@@ -1,26 +1,32 @@
 body{
     margin: 0 10%;
-    
+    width: 65rem;
 }
 
 .ZURIE{
     font-size: 37px;
- width: 10%;
- display: inline-block;
+ /* width: 5rem; */
+ /* display: inline-block; */
  font-family: segoe script;
  color: #1d1645;
 }
 
 
 .header{
-    display: inline-block;
-    width: 55%;
-    margin-left: 12%;
+    /* display: inline-block; */
+    /* width: 39rem; */
+    /* margin-left: 12%; */
     color: #1d1645;
-    position: sticky;
+    padding: 2rem 0;
+    /* position: sticky; */
 }
 .zurie{
-    position: static;
+    position: sticky;
+    top: 0rem;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1.5fr 5fr 2fr ;
+    
 }
 
 
@@ -31,17 +37,18 @@ body{
 }
 
 .sign{
-    width: 15%;
-    display: inline-block;
+    /* width: 15%; */
+    /* display: inline-block; */
     color: #1d1645;
    font-size: 13px;
-   margin-left: 4rem;
-   position: static;
+   padding: 2.3rem 0;
+   /* margin-left: 4rem; */
+   /* position: static; */
 }
 
 
 #sign{
-    width: 45%;
+    width: 4.5rem;
     border:rgb(255, 115, 0) 0.8px solid ;
     border-radius: 5px;
     display: inline-block;
@@ -52,7 +59,7 @@ body{
 }
 
 #signn{
-    width: 45%;
+    width: 4.5rem;
     display: inline-block;
     text-align: center;
     background-color: rgb(255, 115, 0) ;
@@ -601,13 +608,12 @@ font-weight: 500;
 color: #ffffff;
 }
 .quartsect button {
-height: 35.9px;
+height: 37px;
 margin-left: -20px;
 border-radius: 7px;
 width: 9rem;
 color: #1d1645;
 background-color: rgb(255, 117, 3) ;
-border: none;
 }
 
 #inp{
